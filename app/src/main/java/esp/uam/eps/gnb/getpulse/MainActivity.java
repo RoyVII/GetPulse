@@ -36,10 +36,8 @@ public class MainActivity extends AppCompatActivity{
                 rb.setRating(0);
                 tv.setText("Your heart rate is to high");
 
-                            rb.setRating(0);
-                                tv.setText("Your heart rate is to high");
-                    tv.setText("Your heart
-                               rate is to high");
+                            rb.setRating(2);
+                                tv.setText("Your heart rateeeeee is to high");
             } else if (Double.parseDouble(number) > 90) {
                 //Cosa buena
                 rb.setRating(1);
