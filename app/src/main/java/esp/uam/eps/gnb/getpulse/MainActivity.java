@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity{
                 //Cosa mala
                 rb.setRating(0);
                 tv.setText("Your heart rate is to high");
-            } else {
+            } else if (Double.parseDouble(number) > 90) {
                 //Cosa buena
                 rb.setRating(1);
                 tv.setText("Your heart rate is correct");
