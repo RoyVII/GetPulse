@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity{
     protected void onResume(){
         super.onResume();
 
+        // comment
+
         String number = PreferenceManager.getDefaultSharedPreferences(getApplicationContext()).getString("LAST_MEASURE", "0");
         if (number!="0") {
 
